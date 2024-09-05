@@ -19,14 +19,14 @@ A full-stack MERN application with a React frontend and a Node.js/Express backen
 **Install dependencies for the backend:**
 
     ```bash
-    cd server
+    cd backend
     npm install
     ```
 **Install dependencies for the frontend:**
 
     ```bash
-    cd ../client
-    npm install
+    cd ../frontend
+    npm install -g create-react-app
     ```
 **Set up environment variables:**
 
@@ -35,13 +35,13 @@ A full-stack MERN application with a React frontend and a Node.js/Express backen
 **Run the backend server:**
 
     ```bash
-    cd ../server
+    cd ../backend
     npm start
     ```
 **Run the frontend application:**
 
     ```bash
-    cd ../client
+    cd ../frontend
     npm start
     ```
 ## Usage
